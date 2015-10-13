@@ -1,2 +1,0 @@
-g++ -I ./include jsman.cpp -Wall -ojsman -lX11 -lGL -lGLU -lm
-
