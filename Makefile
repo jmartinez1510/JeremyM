@@ -1,12 +1,12 @@
 CFLAGS = -I ./include
 #LFLAGS = -lrt -lX11 -lGLU -lGL -pthread -lm #-lXrandr
 
-all: jsman
+all: jeremyM
 
-jsman: jsman.cpp
-	g++ $(CFlags) jsman.cpp libggfonts.a -Wall -ojsman -lX11 -lGL -lGLU -lm
+jeremyM: jeremyM.cpp
+	g++ $(CFlags) jeremyM.cpp libggfonts.a -Wall -ojeremyM -lX11 -lGL -lGLU -lm
 
 clean:
-	rm -f jsman
+	rm -f jeremyM
 	rm -f *.o
 
